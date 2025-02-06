@@ -4,7 +4,7 @@
 
 1. Voltage regulator
 2. LED display
-3. Wifi Module
+3. Microcontroller
 
 
 ## Voltage Regulator
@@ -42,6 +42,9 @@ Dual voltage regulator    |
 ![alt text](VoltReg3.webp)
 [Link to Texas Instruments LDO voltage regulator](https://www.mouser.com/ProductDetail/Texas-Instruments/TPS70102PWP?qs%3DbkMXpVdiF41JmXPuczOpzA%3D%3D%26mgh%3D1%26srsltid%3DAfmBOoqtSqjdChy1NdfwYW6UW45uYxGgOzW0J132YBuycw3jOd45rfBqCuM%26gQT%3D1)
 
+### Product choice for Voltage regulator: Product 2
+The Texas Instruments IC Voltage Regulator is the option I chose as it is both the correct size and amperage that is needed for this subsystem of the project. While the other 2 options were both good choices, product 1 was very limited in its capacity to output amperage and would be very difficult to solder based on its size. Product 3 was very good, however it had more pins than needed for this part of the project, so product 2 was perfect in both total pins and ease for soldering.
+
 ## LED Array
 The LED array is important as it allows for a physical signal that the Wifi module is working and that the product is on.
 
@@ -78,3 +81,9 @@ Comes in bulk  |
 ![alt text](LED3.webp)
 [Link to Uxcell 5W LED](https://www.harfington.com/products/p-g0371e78e?currency%3DUSD%26variant%3D42123817255161%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DGoogle%2BShopping%26stkn%3Df8e35277684b%26srsltid%3DAfmBOopDPs2dY0Yu_6We4VzthXQTzpV-xCvpU5PApDJU0VGKCbteNZTKDkA%26gQT%3D0)
 
+### Product choice for LED Array: Product 1
+The Bivar Inc. Surface Mount LED was the choice made for this subsystem based on its visibility and the ability to shine in different colors other than just white. Product 2 was a good product, however it did not have a lot of datasheet information, which could've caused difficulty down the line with specifics when in use. Product 3 was well designed, however it being the most expensive and slow to ship was its downside. While a downside of the Bivar Inc. LED is its size, its brightness and ability to change colors were the key factors to making this choice.
+
+
+## Microcontroller Information
+### Microcontroller used: ESP32 chip
