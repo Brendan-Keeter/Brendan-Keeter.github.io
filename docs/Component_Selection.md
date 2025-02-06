@@ -11,6 +11,8 @@
 
 
 ## UART Products
+The UART is an essential part of this subsystem as it allows for the exchange of data between subsystems.
+
 ### Product 1: MaxLinear UART Interface IC
 
 Pros                 |  Cons 
@@ -44,6 +46,8 @@ Multiple UART terminals   | Limited Stock
 [Link to Texas Instruments UART](https://www.digikey.com/en/products/detail/texas-instruments/TL16C2550PFBR/2451287?gQT=2)
 
 ## Voltage Regulator
+The voltage regulator is important to this subsystem as it limits the voltage and current into the microcontrollers to prevent spikes and drops of voltage and to improve performance of systems.
+
 ### Product 1: Diodes Incorporated IC Linear Voltage Regulator
 
 Pros                                                    |  Cons 
@@ -75,4 +79,40 @@ Dual voltage regulator    |
 
 ![alt text](VoltReg3.webp)
 [Link to Texas Instruments LDO voltage regulator](https://www.mouser.com/ProductDetail/Texas-Instruments/TPS70102PWP?qs%3DbkMXpVdiF41JmXPuczOpzA%3D%3D%26mgh%3D1%26srsltid%3DAfmBOoqtSqjdChy1NdfwYW6UW45uYxGgOzW0J132YBuycw3jOd45rfBqCuM%26gQT%3D1)
+
+## LED Array
+The LED array is important as it allows for a physical signal that the Wifi module is working and that the product is on.
+
+### Product 1: Bivar Inc. Surface Mount LED
+
+Pros                      |  Cons 
+--------------------------|----------------
+Multiple color options    | Small size
+Very visible lighting     | Fragile
+                          | Difficult to solder
+
+![alt text](LED1.jpg)
+[Link to Bivar Inc. LED](https://www.digikey.com/en/products/detail/bivar-inc/SM1204RGB/22671473?gQT%3D0)
+
+### Product 2: 5050 3-Chip LED
+
+Pros               |  Cons 
+-------------------|----------------
+Very Cheap         | Limited color options
+Easy to solder     | Limited datasheet imformation
+Fast shipping      | 
+
+![alt text](LED2.webp)
+[Link to 5050 3-Chip LED](https://www.superbrightleds.com/5050-smd-led-rgb-surface-mount-led-with-120-degree-viewing-angle-5050-smd-led?utm_campaign%3Dorganic-shopping%26utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_content%3D5050-RGB%26srsltid%3DAfmBOooJD4D2FlV9ukr4DnvELExSd1mPQ7Bp3z10UX3Wtdf2yv3rNDuDGCw%26gQT%3D0)
+
+### Product 3: Uxcell 300ma 5W LED's
+
+Pros           |  Cons 
+---------------|----------------
+Big Size       | most expensive option
+Very bright    | Slow shipping
+Comes in bulk  |
+
+![alt text](LED3.webp)
+[Link to Uxcell 5W LED](https://www.harfington.com/products/p-g0371e78e?currency%3DUSD%26variant%3D42123817255161%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DGoogle%2BShopping%26stkn%3Df8e35277684b%26srsltid%3DAfmBOopDPs2dY0Yu_6We4VzthXQTzpV-xCvpU5PApDJU0VGKCbteNZTKDkA%26gQT%3D0)
 
