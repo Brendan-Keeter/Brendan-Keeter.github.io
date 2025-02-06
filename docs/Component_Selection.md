@@ -2,48 +2,10 @@
 
 ### Major Components needed
 
-1. UART Module
-2. Voltage regulator
-3. LED display
-4. PIC Microcontroller
-5. Wifi Module
+1. Voltage regulator
+2. LED display
+3. Wifi Module
 
-
-
-## UART Products
-The UART is an essential part of this subsystem as it allows for the exchange of data between subsystems.
-
-### Product 1: MaxLinear UART Interface IC
-
-Pros                 |  Cons 
----------------------|----------------
- Fast transmit speed | More ports than needed
-Fast Shipping        | Large product
-                     | Most expensive option
-
-![MaxLinear UART](UARTpic1.webp)
-[Link to MaxLinear UART](https://www.mouser.com/ProductDetail/MaxLinear/ST16C554CQ64-F?qs%3DsGAEpiMZZMuyKkoWRCJ2WK2LkBH%2Fe8DzpnRsCY%2FOJKM%3D)
-
-### Product 2: NXP SC16IS740IPW UART
-
-Pros                      |  Cons 
---------------------------|----------------
-Very Cheap                | Limited Stock
-Good size for board       | Slow shipping
-Fast data transfer speed  | Limited Channels
-
-![NXP Uart](UART2.jpg)
-[Link to NXP Uart](https://www.futureelectronics.com/p/semiconductors--signal-interface--uart/sc16is740ipw-112-nxp-7849771)
-
-### Product 3: Texas Instruments IC Dual UART
-
-Pros                      |  Cons 
---------------------------|----------------
-Fast Shipping time        | Very big size
-Multiple UART terminals   | Limited Stock
-
-![Texas Instruments Dual UART](UART3.jpg)
-[Link to Texas Instruments UART](https://www.digikey.com/en/products/detail/texas-instruments/TL16C2550PFBR/2451287?gQT=2)
 
 ## Voltage Regulator
 The voltage regulator is important to this subsystem as it limits the voltage and current into the microcontrollers to prevent spikes and drops of voltage and to improve performance of systems.
