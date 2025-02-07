@@ -536,6 +536,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#microcontroller-choice-statement" class="md-nav__link">
+    Microcontroller Choice Statement
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -743,6 +750,13 @@
           <li class="md-nav__item">
   <a href="#esp-information" class="md-nav__link">
     ESP Information
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microcontroller-choice-statement" class="md-nav__link">
+    Microcontroller Choice Statement
   </a>
   
 </li>
@@ -957,55 +971,55 @@ The main focus of this subsystems responsibilities are sensing, display, and com
 <tbody>
 <tr>
 <td>Model</td>
-<td></td>
+<td>ESP32-WROOM-32E-N4</td>
 </tr>
 <tr>
 <td>Product page URL</td>
-<td></td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125">Link</a></td>
 </tr>
 <tr>
-<td>ESP32-S3_WROOM-1-N4 datasheet</td>
-<td></td>
+<td>ESP32-S3-WROOM-1-N4 datasheet</td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf">Link</a></td>
 </tr>
 <tr>
 <td>ESP32 S3 datasheet</td>
-<td></td>
+<td><a href="https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf">Link</a></td>
 </tr>
 <tr>
 <td>ESP32 S3 Technical Manual</td>
-<td></td>
+<td><a href="https://cdn-learn.adafruit.com/assets/assets/000/110/710/original/esp32-s3_technical_reference_manual_en.pdf?1649790877">Link</a></td>
 </tr>
 <tr>
 <td>Vendor Link</td>
-<td></td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125">Link</a></td>
 </tr>
 <tr>
 <td>Code Examples</td>
-<td></td>
+<td><a href="https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md">Link</a></td>
 </tr>
 <tr>
 <td>External Resources</td>
-<td></td>
+<td><a href="https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need">Link 1: Getting Started</a> <a href="https://www.nabto.com/guide-to-iot-esp-32/">Link 2:Complete Guide</a></td>
 </tr>
 <tr>
 <td>Unit Cost</td>
-<td></td>
+<td>$2.50</td>
+</tr>
+<tr>
+<td>Supply Voltage Range</td>
+<td>Operating voltage is between 2.3V-3.6V. 3.3V Recommended</td>
 </tr>
 <tr>
 <td>Absolute Max Current</td>
-<td></td>
+<td>1200 mA</td>
 </tr>
 <tr>
 <td>Maximum GPIO Current</td>
-<td></td>
+<td>1200 mA</td>
 </tr>
 <tr>
 <td>Supports External Interrupts?</td>
-<td></td>
-</tr>
-<tr>
-<td>Required Hardware</td>
-<td></td>
+<td>Yes, it supports external interupts</td>
 </tr>
 </tbody>
 </table>
@@ -1021,54 +1035,50 @@ The main focus of this subsystems responsibilities are sensing, display, and com
 <tbody>
 <tr>
 <td>UART</td>
-<td></td>
-<td></td>
-<td></td>
+<td>3</td>
+<td>2</td>
+<td>Any GPIO Pins</td>
 </tr>
 <tr>
 <td>External SPI</td>
-<td></td>
-<td></td>
-<td></td>
+<td>4</td>
+<td>2</td>
+<td>Any GPIO Pins</td>
 </tr>
 <tr>
 <td>I2C</td>
-<td></td>
-<td></td>
-<td></td>
+<td>2</td>
+<td>1</td>
+<td>Any GPIO Pins</td>
 </tr>
 <tr>
 <td>GPIO</td>
-<td></td>
-<td></td>
-<td></td>
+<td>34</td>
+<td>12</td>
+<td>Any GPIO Pins</td>
 </tr>
 <tr>
 <td>ADC</td>
-<td></td>
-<td></td>
-<td></td>
+<td>2</td>
+<td>0</td>
+<td>18 Available Pins</td>
 </tr>
 <tr>
 <td>LED PWM</td>
-<td></td>
-<td></td>
-<td></td>
+<td>16</td>
+<td>2</td>
+<td>Any GPIO Pins</td>
 </tr>
 <tr>
 <td>Motor PWM</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>USB Programmer</td>
-<td></td>
-<td></td>
-<td></td>
+<td>3</td>
+<td>0</td>
+<td>Any GPIO Pins</td>
 </tr>
 </tbody>
 </table>
+<h3 id="microcontroller-choice-statement">Microcontroller Choice Statement</h3>
+<p>The EPS32 module that I had found is well suited for this project. The ESP32 that I have selected contains enough pins to be able to safely and effectively organize the board without crowding. Another thing about the board is the applications it is commonly used in. This ESP module is commonly used in sound recognition and audio devices which would suit well for the project we are working on that involves a microphone. The maximum current in the board is well within the parameters that we intend to keep our components under, so there is very little risk of damage to the EPS32 module and its recommended voltage is the exact same as the voltage we intended to use for our project.</p>
 
 
 
