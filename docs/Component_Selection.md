@@ -98,27 +98,30 @@ The main focus of this subsystems responsibilities are sensing, display, and com
 ### ESP Information
 ESP Info                      |   Data
 ------------------------------|------------------
-Model                         |      
-Product page URL              |                 
-ESP32-S3_WROOM-1-N4 datasheet |
-ESP32 S3 datasheet            | 
-ESP32 S3 Technical Manual     | 
-Vendor Link                   |
-Code Examples                 |
-External Resources            | 
-Unit Cost                     |
-Absolute Max Current          | 
-Maximum GPIO Current          | 
-Supports External Interrupts? | 
-Required Hardware             | 
+Model                         | ESP32-WROOM-32E-N4
+Product page URL              | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)     
+ESP32-S3-WROOM-1-N4 datasheet | [Link](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+ESP32 S3 datasheet            | [Link](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)
+ESP32 S3 Technical Manual     | [Link](https://cdn-learn.adafruit.com/assets/assets/000/110/710/original/esp32-s3_technical_reference_manual_en.pdf?1649790877)
+Vendor Link                   | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)
+Code Examples                 | [Link](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md)
+External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need) [Link 2:Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
+Unit Cost                     | $2.50
+Supply Voltage Range          | Operating voltage is between 2.3V-3.6V. 3.3V Recommended
+Absolute Max Current          | 1200 mA
+Maximum GPIO Current          | 1200 mA
+Supports External Interrupts? | Yes, it supports external interupts
+
 
 Module         | # Available      |  Needed    | Associated Pins
 ---------------|------------------|------------|-----------------------
-UART           |                  |            | 
-External SPI   |                  |            |
-I2C            |                  |            | 
-GPIO           |                  |            | 
-ADC            |                  |            | 
-LED PWM        |                  |            | 
-Motor PWM      |                  |            | 
-USB Programmer |
+UART           |  3               | 2          | Any GPIO Pins
+External SPI   |  4               | 2          | Any GPIO Pins
+I2C            |  2               | 1          | Any GPIO Pins
+GPIO           |  34              | 12         | Any GPIO Pins
+ADC            |  2               | 0          | 18 Available Pins
+LED PWM        |  16              | 2          | Any GPIO Pins
+Motor PWM      |  3               | 0          | Any GPIO Pins
+
+### Microcontroller Choice Statement
+The EPS32 module that I had found is well suited for this project. The ESP32 that I have selected contains enough pins to be able to safely and effectively organize the board without crowding. Another thing about the board is the applications it is commonly used in. This ESP module is commonly used in sound recognition and audio devices which would suit well for the project we are working on that involves a microphone. The maximum current in the board is well within the parameters that we intend to keep our components under, so there is very little risk of damage to the EPS32 module and its recommended voltage is the exact same as the voltage we intended to use for our project.
