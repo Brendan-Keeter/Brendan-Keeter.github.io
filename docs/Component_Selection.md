@@ -86,4 +86,39 @@ The Bivar Inc. Surface Mount LED was the choice made for this subsystem based on
 
 
 ## Microcontroller Information
-### Microcontroller used: ESP32 chip
+### Microcontroller Used: Expressif ESP32 chip
+![Picture of ESP module](ESPpic.jpg)
+![Pin layout for Expressif ESP](<Screenshot (117).png>)
+![Pin description for ESP](<Screenshot (118).png>)
+
+### Role of Subsystem
+For the team, this subsystems role is to allow communication inputs from Wifi and Bluetooth. By gathering these inputs, this subsystem will then send data to the other subsystems of the project to physically perform the action selected. Once the data has been processed by the other subsystems, it will once again be received by this subsystem and sent back out via Wifi to the user.
+The main focus of this subsystems responsibilities are sensing, display, and communication. For my subsystem, it will be responsible for sensing a button press from a user over Wifi or Bluetooth connection. As it receives this data, it will display something onto their device to allow them to see more information about what the project will be physically demonstrating. The main importance of this subsystem is communication. As the subsystem recieves inputs from the user, it is sending and recieving data to and from the other subsystems in order to physically demonstrate whichever option the user had selected. 
+
+### ESP Information
+ESP Info                      |   Data
+------------------------------|------------------
+Model                         |      
+Product page URL              |                 
+ESP32-S3_WROOM-1-N4 datasheet |
+ESP32 S3 datasheet            | 
+ESP32 S3 Technical Manual     | 
+Vendor Link                   |
+Code Examples                 |
+External Resources            | 
+Unit Cost                     |
+Absolute Max Current          | 
+Maximum GPIO Current          | 
+Supports External Interrupts? | 
+Required Hardware             | 
+
+Module         | # Available      |  Needed    | Associated Pins
+---------------|------------------|------------|-----------------------
+UART           |                  |            | 
+External SPI   |                  |            |
+I2C            |                  |            | 
+GPIO           |                  |            | 
+ADC            |                  |            | 
+LED PWM        |                  |            | 
+Motor PWM      |                  |            | 
+USB Programmer |
