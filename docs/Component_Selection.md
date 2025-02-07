@@ -93,6 +93,7 @@ The Bivar Inc. Surface Mount LED was the choice made for this subsystem based on
 
 ### Role of Subsystem
 For the team, this subsystems role is to allow communication inputs from Wifi and Bluetooth. By gathering these inputs, this subsystem will then send data to the other subsystems of the project to physically perform the action selected. Once the data has been processed by the other subsystems, it will once again be received by this subsystem and sent back out via Wifi to the user.
+
 The main focus of this subsystems responsibilities are sensing, display, and communication. For my subsystem, it will be responsible for sensing a button press from a user over Wifi or Bluetooth connection. As it receives this data, it will display something onto their device to allow them to see more information about what the project will be physically demonstrating. The main importance of this subsystem is communication. As the subsystem recieves inputs from the user, it is sending and recieving data to and from the other subsystems in order to physically demonstrate whichever option the user had selected. 
 
 ### ESP Information
@@ -105,7 +106,7 @@ ESP32 S3 datasheet            | [Link](https://www.espressif.com/sites/default/f
 ESP32 S3 Technical Manual     | [Link](https://cdn-learn.adafruit.com/assets/assets/000/110/710/original/esp32-s3_technical_reference_manual_en.pdf?1649790877)
 Vendor Link                   | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)
 Code Examples                 | [Link](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md)
-External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need) [Link 2:Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
+External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need) [Link 2: Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
 Unit Cost                     | $2.50
 Supply Voltage Range          | Operating voltage is between 2.3V-3.6V. 3.3V Recommended
 Absolute Max Current          | 1200 mA
