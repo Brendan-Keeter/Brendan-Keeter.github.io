@@ -48,7 +48,7 @@ Boost switching regulator |
 [Link to Texas Instruments IC REG BOOST ADJ 980MA SOT23-6](https://www.digikey.com/en/products/detail/texas-instruments/TLV61046ADBVR/8133008)
 
 ### Product choice for Voltage regulator: Product 1
-The Texas Instruments IC REG BUCK 3.3V 1.7A 8SOIC voltage regulator is the best choice I was able to find for my product and 
+The Texas Instruments IC REG BUCK 3.3V 1.7A 8SOIC voltage regulator is a powerful voltage regulator that works well within the parameters of my project. With the wall mount supplying power, it will successfully be able to regulator the voltage while sending the most amount of current into the system as well. The size of the regulator is small, however the datasheet offers a guide on how to successfully solder the surface mount voltage regulator. The price point for this voltage regulator is very good as well as it is only $1.60 for each part, this allows for the option to get the ones I would need for my project and then multiple extras in case of an issue with the part occurs.
 
 ## LED Array
 The LED array is important as it allows for a physical signal that the Wifi module is working and that the product is on.
