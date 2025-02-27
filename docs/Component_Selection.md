@@ -62,6 +62,7 @@ Very visible lighting     | Fragile
                           | Difficult to solder
 
 ![alt text](LED1.jpg)
+
 [Link to Bivar Inc. LED](https://www.digikey.com/en/products/detail/bivar-inc/SM1204RGB/22671473?gQT%3D0)
 
 ### Product 2: 5050 3-Chip LED
@@ -73,6 +74,7 @@ Easy to solder     | Limited datasheet imformation
 Fast shipping      | 
 
 ![alt text](LED2.webp)
+
 [Link to 5050 3-Chip LED](https://www.superbrightleds.com/5050-smd-led-rgb-surface-mount-led-with-120-degree-viewing-angle-5050-smd-led?utm_campaign%3Dorganic-shopping%26utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_content%3D5050-RGB%26srsltid%3DAfmBOooJD4D2FlV9ukr4DnvELExSd1mPQ7Bp3z10UX3Wtdf2yv3rNDuDGCw%26gQT%3D0)
 
 ### Product 3: Uxcell 300ma 5W LED's
@@ -84,6 +86,7 @@ Very bright    | Slow shipping
 Comes in bulk  |
 
 ![alt text](LED3.webp)
+
 [Link to Uxcell 5W LED](https://www.harfington.com/products/p-g0371e78e?currency%3DUSD%26variant%3D42123817255161%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DGoogle%2BShopping%26stkn%3Df8e35277684b%26srsltid%3DAfmBOopDPs2dY0Yu_6We4VzthXQTzpV-xCvpU5PApDJU0VGKCbteNZTKDkA%26gQT%3D0)
 
 ### Product choice for LED Array: Product 1
@@ -111,7 +114,7 @@ ESP32 S3 datasheet            | [Link](https://www.espressif.com/sites/default/f
 ESP32 S3 Technical Manual     | [Link](https://cdn-learn.adafruit.com/assets/assets/000/110/710/original/esp32-s3_technical_reference_manual_en.pdf?1649790877)
 Vendor Link                   | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)
 Code Examples                 | [Link](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md)
-External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need) [Link 2: Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
+External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need)    [Link 2: Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
 Unit Cost                     | $2.50
 Supply Voltage Range          | Operating voltage is between 2.3V-3.6V. 3.3V Recommended
 Absolute Max Current          | 1200 mA
