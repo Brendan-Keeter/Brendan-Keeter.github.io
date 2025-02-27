@@ -44,6 +44,7 @@ Easy soldering            | Low output Amperage
 Boost switching regulator |
 
 ![alt text](vol3.jpg)
+
 [Link to Texas Instruments IC REG BOOST ADJ 980MA SOT23-6](https://www.digikey.com/en/products/detail/texas-instruments/TLV61046ADBVR/8133008)
 
 ### Product choice for Voltage regulator: Product 1
