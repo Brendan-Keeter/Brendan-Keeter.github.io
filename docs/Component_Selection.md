@@ -19,7 +19,7 @@ Lots of stock                                           | Very Small
 Protective features for temperature and short circuits  | 
 Switching Regulator                                     | 
 
-![Diodes Incorporated voltage regulator](c:\Users\brend\Downloads\voltreg1.jpg)
+![Diodes Incorporated voltage regulator](voltreg1.jpg)
 
 [Link to diodes Incorporated Voltage Regulator](https://www.digikey.com/en/products/detail/texas-instruments/TPS5403DR/3671578?gclsrc=aw.ds&&utm_adgroup=Texas%20Instruments&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_Texas%20Instruments&utm_term=&utm_content=Texas%20Instruments&utm_id=go_cmp-17816159938_adg-_ad-__dev-c_ext-_prd-3671578_sig-CjwKCAiAt4C-BhBcEiwA8Kp0CTcF9FVzJ_Ko_nwXZIhZdF_5RF-trQQ9HqssRgeHgRn9RdPct75E1RoCdaAQAvD_BwE&gad_source=1&gclid=CjwKCAiAt4C-BhBcEiwA8Kp0CTcF9FVzJ_Ko_nwXZIhZdF_5RF-trQQ9HqssRgeHgRn9RdPct75E1RoCdaAQAvD_BwE&gclsrc=aw.ds)
 
@@ -42,7 +42,7 @@ Good size                 | Low max input Voltage
 Easy soldering            | Low output Amperage
 Boost switching regulator |
 
-![alt text](c:\Users\brend\Downloads\vol3.jpg)
+![alt text](vol3.jpg)
 [Link to Texas Instruments LDO voltage regulator](https://www.digikey.com/en/products/detail/texas-instruments/TLV61046ADBVR/8133008)
 
 ### Product choice for Voltage regulator: Product 2
