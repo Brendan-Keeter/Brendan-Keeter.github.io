@@ -1,20 +1,9 @@
 ---
 title: Welcome
-tags:
-- tag1
-- tag2
 ---
 
-## Hello! My name is Brendan
+## Brendan Keeters Individual Webpage
 
-* List 1
-* List 2
+Welcome to our project report for EGR314. This webpage is an individual subsection for our much bigger project. On this webpage you will be able to view the progress and individual components to the subsection: 2 way Wifi Communication.
 
-name    | discription
---------|------------
-Brendan | Author of site
-
-### This is how to make subheading
-
-1. Step 1
-2. Step 2
+The goal of this subsection is to allow for the user to connect through their personal device to our project. Their device will be able to display advanced data that our project is collecting that doesn't have a visible component to our project, such as pitch and frequency of volume.
