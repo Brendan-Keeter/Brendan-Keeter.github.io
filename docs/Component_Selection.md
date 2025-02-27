@@ -10,16 +10,18 @@
 ## Voltage Regulator
 The voltage regulator is important to this subsystem as it limits the voltage and current into the microcontrollers to prevent spikes and drops of voltage and to improve performance of systems.
 
-### Product 1: Diodes Incorporated IC Linear Voltage Regulator
+### Product 1: Texas Instruments IC REG BUCK 3.3V 1.7A 8SOIC
 
 Pros                                                    |  Cons 
 --------------------------------------------------------|----------------
-Very Cheap                                              | Limited output amperage
-Lots of stock                                           | Fragile
-Protective features for temperature and short circuits  | Very small
+High Output Amperage                                    | Lot of soldering pins
+Lots of stock                                           | Very Small
+Protective features for temperature and short circuits  | 
+Switching Regulator                                     | 
 
-![Diodes Incorporated voltage regulator](VoltageReg1-1.jpg)
-[Link to diodes Incorporated Voltage Regulator](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-G1/8545831?gQT=1)
+![Diodes Incorporated voltage regulator](c:\Users\brend\Downloads\voltreg1.jpg)
+
+[Link to diodes Incorporated Voltage Regulator](https://www.digikey.com/en/products/detail/texas-instruments/TPS5403DR/3671578?gclsrc=aw.ds&&utm_adgroup=Texas%20Instruments&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_Texas%20Instruments&utm_term=&utm_content=Texas%20Instruments&utm_id=go_cmp-17816159938_adg-_ad-__dev-c_ext-_prd-3671578_sig-CjwKCAiAt4C-BhBcEiwA8Kp0CTcF9FVzJ_Ko_nwXZIhZdF_5RF-trQQ9HqssRgeHgRn9RdPct75E1RoCdaAQAvD_BwE&gad_source=1&gclid=CjwKCAiAt4C-BhBcEiwA8Kp0CTcF9FVzJ_Ko_nwXZIhZdF_5RF-trQQ9HqssRgeHgRn9RdPct75E1RoCdaAQAvD_BwE&gclsrc=aw.ds)
 
 ### Product 2: Texas Instruments IC Voltage Regulator
 
@@ -27,20 +29,21 @@ Pros                      |  Cons
 --------------------------|----------------
 Very Cheap                | Limited Stock
 Good output amperage      | Small size
+                          | Linear Regulator
 
 ![alt text](VoltReg2.jpg)
 [Link to Texas Instruments Voltage Regulator](https://www.digikey.com/en/products/detail/texas-instruments/TLV70245DBVT/3313487?gclsrc=aw.ds&&utm_adgroup=Texas%20Instruments&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Supplier_Texas%20Instruments&utm_term=&utm_content=Texas%20Instruments&utm_id=go_cmp-17816159938_adg-_ad-__dev-c_ext-_prd-3313487_sig-CjwKCAiAtYy9BhBcEiwANWQQL6YN1oEZa4xfyE7WO1s_B3ArOTaa2NjwByYHu9_ywzZCVhIErApSexoC3EAQAvD_BwE&gad_source=1&gclid=CjwKCAiAtYy9BhBcEiwANWQQL6YN1oEZa4xfyE7WO1s_B3ArOTaa2NjwByYHu9_ywzZCVhIErApSexoC3EAQAvD_BwE&gclsrc=aw.ds)
 
-### Product 3: Texas Instruments LDO Voltage Regulator
+### Product 3: Texas Instruments IC REG BOOST ADJ 980MA SOT23-6
 
 Pros                      |  Cons 
 --------------------------|----------------
-Good size                 | Most expensive option of the 3
-High Output current       | May not need all the pins for project
-Dual voltage regulator    | 
+Good size                 | Low max input Voltage
+Easy soldering            | Low output Amperage
+Boost switching regulator |
 
-![alt text](VoltReg3.webp)
-[Link to Texas Instruments LDO voltage regulator](https://www.mouser.com/ProductDetail/Texas-Instruments/TPS70102PWP?qs%3DbkMXpVdiF41JmXPuczOpzA%3D%3D%26mgh%3D1%26srsltid%3DAfmBOoqtSqjdChy1NdfwYW6UW45uYxGgOzW0J132YBuycw3jOd45rfBqCuM%26gQT%3D1)
+![alt text](c:\Users\brend\Downloads\vol3.jpg)
+[Link to Texas Instruments LDO voltage regulator](https://www.digikey.com/en/products/detail/texas-instruments/TLV61046ADBVR/8133008)
 
 ### Product choice for Voltage regulator: Product 2
 The Texas Instruments IC Voltage Regulator is the option I chose as it is both the correct size and amperage that is needed for this subsystem of the project. While the other 2 options were both good choices, product 1 was very limited in its capacity to output amperage and would be very difficult to solder based on its size. Product 3 was very good, however it had more pins than needed for this part of the project, so product 2 was perfect in both total pins and ease for soldering.
