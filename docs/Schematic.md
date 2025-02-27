@@ -1,3 +1,3 @@
 ## Schematic
 
-![Schematic of 2 way WIFI communication](1740698228964-c5af50d6-feee-4874-9ee9-56a42b541394_1.jpg) 
+![Schematic of 2 way WIFI communication](1740698740698-552391c0-49eb-44d9-b661-c1ed0ec40a26_1.jpg) 
