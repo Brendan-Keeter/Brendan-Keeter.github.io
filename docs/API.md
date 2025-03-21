@@ -18,11 +18,11 @@ Example       | 1             | 0.0079 Hz     | 1
 
 Type          | Byte 1        | Byte 2        | Byte 3         
 --------------|---------------|---------------|---------------
-Variable Name | Amplitude     | Wave_Freq     | Wave_Length
-Variable Type | uint8_t       | uint8_t       | uint8_t           
-Min Value     | 100 Hz          | .0012 Hz      | 1 m            
-Max Value     | 20000 Hz       | .0104 Hz      | 4.1 m            
-Example       | 17452 Hz        | 0.0093 Hz     | 3 m            
+Variable Name | Tuning        | Wave_Freq     | Wave_Length
+Variable Type | int           | uint8_t       | uint8_t           
+Min Value     | -10           | .0012 Hz      | 1 m            
+Max Value     | 10            | .0104 Hz      | 4.1 m            
+Example       | -3            | 0.0093 Hz     | 3 m            
 
 
 ### Team Messages 
