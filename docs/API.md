@@ -6,11 +6,11 @@
 
 Type          | Byte 1        | Byte 2        | Byte 3         
 --------------|---------------|---------------|---------------
-Variable Name | Status_Wifi   | motor_speed   | ETA
-Variable Type | uint8_t       | ETA           | ETA           
-Min Value     | 0             | ETA           | ETA            
-Max Value     | 1             | ETA           | ETA            
-Example       | 1             | ETA           | ETA            
+Variable Name | Status_Wifi   | Wave_freq     | Active_status
+Variable Type | uint8_t       | uint8_t       | uint8_t           
+Min Value     | 0             | 0.0012 Hz     | 0            
+Max Value     | 1             | 0.0104 Hz     | 1            
+Example       | 1             | 0.0079 Hz     | 1            
 
 
 
@@ -29,8 +29,8 @@ Example       | 9 rpm         | 0.0093 Hz     | 3 m
 
 Type          | Byte 1        | Byte 2        | Byte 3         
 --------------|---------------|---------------|---------------
-Variable Name | motor_speed   | Status_Active | Button_input
-Variable Type | uint8_t       | uint8_t       | uint8_t           
+Variable Name | motor_speed   | pitch_info    | Button_input
+Variable Type | uint8_t       | int           | uint8_t           
 Min Value     | 0 rpm         | 0             | 0            
 Max Value     | 14 rpm        | 1             | 3            
 Example       | 4 rpm         | 0             | 1            
