@@ -28,9 +28,9 @@ Type          | Byte 1        | Byte 2        | Byte 3
 --------------|---------------|---------------|---------------
 Variable Name | Tuning        | Wave_Freq     | Wave_Length
 Variable Type | int           | uint8_t       | uint8_t           
-Min Value     | -10           | 0             | 1 m            
-Max Value     | 10            | 256           | 4.1 m            
-Example       | -3            | 234           | 3 m            
+Min Value     | -10           | 0             | 0 m            
+Max Value     | 10            | 256           | 256 m            
+Example       | -3            | 234           | 47 m            
 
 
 ### Team Messages 
