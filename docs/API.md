@@ -16,9 +16,9 @@ Type          | Byte 1        | Byte 2        | Byte 3
 --------------|---------------|---------------|---------------
 Variable Name | Status_Wifi   | Wave_freq     | Active_status
 Variable Type | uint8_t       | uint8_t       | uint8_t           
-Min Value     | 0             | 0.0012 Hz     | 0            
-Max Value     | 1             | 0.0104 Hz     | 1            
-Example       | 1             | 0.0079 Hz     | 1            
+Min Value     | 0             | 0             | 0            
+Max Value     | 1             | 256           | 1            
+Example       | 1             | 179           | 1            
 
 
 
@@ -28,9 +28,9 @@ Type          | Byte 1        | Byte 2        | Byte 3
 --------------|---------------|---------------|---------------
 Variable Name | Tuning        | Wave_Freq     | Wave_Length
 Variable Type | int           | uint8_t       | uint8_t           
-Min Value     | -10           | .0012 Hz      | 1 m            
-Max Value     | 10            | .0104 Hz      | 4.1 m            
-Example       | -3            | 0.0093 Hz     | 3 m            
+Min Value     | -10           | 0             | 1 m            
+Max Value     | 10            | 256           | 4.1 m            
+Example       | -3            | 234           | 3 m            
 
 
 ### Team Messages 
