@@ -15,7 +15,7 @@ Broadcast   | X
 Type          | Byte 1        | Byte 2        | Byte 3         
 --------------|---------------|---------------|---------------
 Variable Name | Status_Wifi   | Wave_freq     | Active_status
-Variable Type | char          | uint8_t          | char           
+Variable Type | uint8_t       | uint8_t       | uint8_t           
 Min Value     | 0             | 0             | 0            
 Max Value     | 1             | 256           | 1            
 Example       | 1             | 179           | 1            
@@ -38,7 +38,7 @@ Example       | -3            | 234           | 3 m
 Type          | Byte 1        | Byte 2        | Byte 3         
 --------------|---------------|---------------|---------------
 Variable Name | motor_speed   | pitch_info    | Button_input
-Variable Type | uint8_t       | char          | uint8_t           
+Variable Type | uint8_t       | uint8_t       | uint8_t           
 Min Value     | 0 rpm         | 0             | 0            
 Max Value     | 14 rpm        | 1             | 3            
 Example       | 4 rpm         | 0             | 1            
