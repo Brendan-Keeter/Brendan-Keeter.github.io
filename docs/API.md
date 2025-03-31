@@ -4,11 +4,11 @@
 
 Name        |  ID     
 ------------|--------
-Brendan     | B
-Zack        | Z
-Sivanee     | S
-Carter      | C
-Broadcast   | X
+Brendan     | BK
+Zack        | ZG
+Sivanee     | SK
+Carter      | CO
+Broadcast   | XX
 
 ### Messages sent
 
