@@ -2,7 +2,7 @@
 
 ### BOM Parts List
 
-![Bill of materials for subsystem](1740702528737-1670717c-1b30-479c-8ba1-ed5d261aeb8d_1.jpg)
+![Bill of Materials for Subsystem](1744164361120-acb7af5a-4ce4-49ee-9d1b-fafdcc5287b7_1.jpg)
 
 ### Order Form
 
