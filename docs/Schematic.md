@@ -2,9 +2,12 @@
 
 ### Schematic Design
 
-![Schematic of 2 way WIFI communication](1740698740698-552391c0-49eb-44d9-b661-c1ed0ec40a26_1.jpg) 
+![Schematic of 2 way wifi communication](1744163966589-7e53abb0-3b01-4fdc-bb91-1a21769e6c02_1.jpg)
 
-[Link to schematic PDF](schematic.pdf)
+
+
+[Link to Schematic PDF](<Schem design.pdf>)
+
 
 [Zip File](<../../../../Desktop/School Programs/2025 spring/Wifi Communication.zip>)
 
