@@ -30,3 +30,5 @@ This schematic helps to satisfy user needs and requirement for our product as it
 ![PDF Design](1744415070355-ca34e5a5-1004-4eb7-99e8-e369a6433012_1.jpg)
 
 [PDF of PCB board](Schematic.pdf)
+
+[Zip File link](<../../../../../../Public/Documents/Altium/PCB_Project/Keeter_PCB_team203 (4-11-2025 4-49-03 PM).zip>)
