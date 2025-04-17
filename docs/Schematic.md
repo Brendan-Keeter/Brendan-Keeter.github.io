@@ -2,7 +2,7 @@
 
 ### Schematic Design
 
-![Schematic of 2 way wifi communication](1744163966589-7e53abb0-3b01-4fdc-bb91-1a21769e6c02_1.jpg)
+![Schematic](1744906293874-5267f8c6-4adc-44d8-932f-5063751d90ec_1.jpg)
 
 
 [Schematic PDF](Final_Schematic.pdf)
@@ -26,7 +26,7 @@ This schematic helps to satisfy user needs and requirement for our product as it
 
 ### PCB Design
 
-![PDF Design](1744415070355-ca34e5a5-1004-4eb7-99e8-e369a6433012_1.jpg)
+![PCB](1744906293409-5c0e3bee-3bcf-41e6-9045-d6a4075cb2a4_1.jpg)
 
 [PCB PDF](Final_PCB.pdf)
 
