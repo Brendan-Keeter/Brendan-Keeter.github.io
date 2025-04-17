@@ -5,8 +5,7 @@
 ![Schematic of 2 way wifi communication](1744163966589-7e53abb0-3b01-4fdc-bb91-1a21769e6c02_1.jpg)
 
 
-
-[Link to Schematic PDF](<Schem design.pdf>)
+[Schematic PDF](Final_Schematic.pdf)
 
 
 [Zip File](<../../../../Desktop/School Programs/2025 spring/Wifi Communication.zip>)
@@ -29,6 +28,6 @@ This schematic helps to satisfy user needs and requirement for our product as it
 
 ![PDF Design](1744415070355-ca34e5a5-1004-4eb7-99e8-e369a6433012_1.jpg)
 
-[PDF of PCB board](Schematic.pdf)
+[PCB PDF](Final_PCB.pdf)
 
 [Zip File link](<../../../../../../Public/Documents/Altium/PCB_Project/Keeter_PCB_team203 (4-11-2025 4-49-03 PM).zip>)
