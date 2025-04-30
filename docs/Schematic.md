@@ -2,7 +2,7 @@
 
 ### Schematic Design
 
-![Schematic](1744906293874-5267f8c6-4adc-44d8-932f-5063751d90ec_1.jpg)
+![Schematic](1746056911005-8b6e04da-d1b4-412d-91ec-ea043bb2be19_1.jpg)
 
 
 [Schematic PDF](Final_Schematic.pdf)
