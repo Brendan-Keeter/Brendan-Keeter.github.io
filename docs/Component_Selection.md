@@ -77,20 +77,20 @@ Fast shipping      |
 
 [Link to 5050 3-Chip LED](https://www.superbrightleds.com/5050-smd-led-rgb-surface-mount-led-with-120-degree-viewing-angle-5050-smd-led?utm_campaign%3Dorganic-shopping%26utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_content%3D5050-RGB%26srsltid%3DAfmBOooJD4D2FlV9ukr4DnvELExSd1mPQ7Bp3z10UX3Wtdf2yv3rNDuDGCw%26gQT%3D0)
 
-### Product 3: Uxcell 300ma 5W LED's
+### Product 3: Würth Elektronik LED GREEN CLEAR 0603 SMD
 
 Pros           |  Cons 
 ---------------|----------------
-Big Size       | most expensive option
+Good price     | Small (0603 size)
 Very bright    | Slow shipping
-Comes in bulk  |
+Comes in bulk  | Only comes in green
 
-![alt text](LED3.webp)
+![alt text](<WL-SMCW Series 0603.jpg>)
 
-[Link to Uxcell 5W LED](https://www.harfington.com/products/p-g0371e78e?currency%3DUSD%26variant%3D42123817255161%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DGoogle%2BShopping%26stkn%3Df8e35277684b%26srsltid%3DAfmBOopDPs2dY0Yu_6We4VzthXQTzpV-xCvpU5PApDJU0VGKCbteNZTKDkA%26gQT%3D0)
+[Würth Elektronik LED GREEN CLEAR 0603 SMD](https://www.digikey.com/en/products/detail/w-rth-elektronik/150060GS75000/4489896?gclsrc%3Daw.ds%26%26utm_adgroup%3D%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DPMax%20Shopping_Product_Medium%20ROAS%20Categories%26utm_term%3D%26utm_content%3D%26utm_id%3Dgo_cmp-20223376311_adg-_ad-__dev-c_ext-_prd-4489896_sig-Cj0KCQjwkZm_BhDrARIsAAEbX1FVawsae2_hcGH7fQbeBcZxQQZiAU5yU9fi9x5hAQCFyqkIZ7VKPicaAn9HEALw_wcB%26gad_source%3D1%26gclid%3DCj0KCQjwkZm_BhDrARIsAAEbX1FVawsae2_hcGH7fQbeBcZxQQZiAU5yU9fi9x5hAQCFyqkIZ7VKPicaAn9HEALw_wcB%26gclsrc%3Daw.ds)
 
-### Product choice for LED Array: Product 1
-The Bivar Inc. Surface Mount LED was the choice made for this subsystem based on its visibility and the ability to shine in different colors other than just white. Product 2 was a good product, however it did not have a lot of datasheet information, which could've caused difficulty down the line with specifics when in use. Product 3 was well designed, however it being the most expensive and slow to ship was its downside. While a downside of the Bivar Inc. LED is its size, its brightness and ability to change colors were the key factors to making this choice.
+### Product choice for LED Array: Product 3
+The Würth Elektronik LED GREEN CLEAR 0603 SMD is the choice I ended up going with as, while it only comes in green, it is very powerful and long lasting. Its datasheet contains a lot of useful information on it on how to solder it and how to get different intensities of light from it, something that the other datasheets for LED's had lacked. It is very easy to solder and use for a PCB board as well.
 
 
 ## Microcontroller Information
