@@ -26,8 +26,12 @@ This schematic helps to satisfy user needs and requirement for our product as it
 
 ### PCB Design
 
-![PCB](1744906293409-5c0e3bee-3bcf-41e6-9045-d6a4075cb2a4_1.jpg)
+![PCB Top Layer](1746058921717-ecc4879e-0df6-4f3c-8703-2a990cf017c0_1.jpg)
 
-[PCB PDF](Final_PCB.pdf)
+![PCB Bottom Layer](1746058921674-9e5a4f5f-fab9-4f86-b45e-b87278dfe8bf_1.jpg)
 
-[Zip File link](<../../../../../../Public/Documents/Altium/PCB_Project/Keeter_PCB_team203 (4-11-2025 4-49-03 PM).zip>)
+[PCB Top Layer PDF](Final_PCB_top.pdf)
+
+[PCB Bottom Layer PDF](Final_PCB_bottom.pdf)
+
+[Zip FIle Link](<../../../../../../Public/Documents/Altium/Final_PCB/Final_PCB (4-30-2025 5-21-09 PM).zip>)
