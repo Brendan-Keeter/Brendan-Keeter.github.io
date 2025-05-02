@@ -13,5 +13,8 @@ This includes only the amount I needed for my board
 
 ### Order Form
 
+![Purchase Request](1746173643409-286b781a-73ec-4aa3-8171-3059d375c05a_1.jpg)
 
-![Order request for subsystem](1740765314653-9043037b-3af8-4917-85e6-0d253d88333b_1.jpg)
+[Purchase request PDF](<EGR-3x4-Purchase-Request-2021 DIGI KEY (1).pdf>)
+
+[Purchase request Excel](<../../../../../Downloads/EGR-3x4-Purchase-Request-2021 DIGI KEY (1).xlsx>)
