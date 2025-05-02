@@ -6,6 +6,14 @@
 2. LED display
 3. Microcontroller
 
+### Summary Table of components
+
+Component         |  My Pick
+------------------|--------------------------------------------------
+Microcontroller   | ESP32-S3-WROOM-1
+Voltage Regulator | Texas Instruments IC REG BUCK 3.3V 1.7A 8SOIC
+LED Array         | Würth Elektronik LED GREEN CLEAR 0603 SMD
+
 
 ## Voltage Regulator
 The voltage regulator is important to this subsystem as it limits the voltage and current into the microcontrollers to prevent spikes and drops of voltage and to improve performance of systems.
@@ -94,7 +102,7 @@ The Würth Elektronik LED GREEN CLEAR 0603 SMD is the choice I ended up going wi
 
 
 ## Microcontroller Information
-### Microcontroller Used: Expressif ESP32 chip
+### Microcontroller Used: ESP32-S3-WROOM-1
 ![Picture of ESP module](ESPpic.jpg)
 ![Pin layout for Expressif ESP](<Screenshot (117).png>)
 ![Pin description for ESP](<Screenshot (118).png>)
@@ -107,7 +115,7 @@ The main focus of this subsystems responsibilities are sensing, display, and com
 ### ESP Information
 ESP Info                      |   Data
 ------------------------------|------------------
-Model                         | ESP32-WROOM-32E-N4
+Model                         | ESP32-S3-WROOM-1
 Product page URL              | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)     
 ESP32-S3-WROOM-1-N4 datasheet | [Link](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 ESP32 S3 datasheet            | [Link](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)
@@ -116,7 +124,7 @@ Vendor Link                   | [Link](https://www.digikey.com/en/products/detai
 Code Examples                 | [Link](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md)
 External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need)    [Link 2: Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
 Unit Cost                     | $2.50
-Supply Voltage Range          | Operating voltage is between 2.3V-3.6V. 3.3V Recommended
+Supply Voltage Range          | Operating voltage is between 3.0V-3.6V. 3.3V Recommended
 Absolute Max Current          | 1200 mA
 Maximum GPIO Current          | 1200 mA
 Supports External Interrupts? | Yes, it supports external interupts
