@@ -4,7 +4,7 @@ In order to communicate with each other without having structure issues between 
 
 ## Message structure
 
-Messages sent between team will look like: [AZ][SENDERID][RECEIVERID][MESSAGETYPE][VALUES][YB]
+Example Message Structure: [AZ][SENDERID][RECEIVERID][MESSAGETYPE][VALUES][YB]
 
 
 ### Message ID's
