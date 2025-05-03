@@ -1,20 +1,29 @@
 ## Message Comunication
 
 In order to communicate with each other without having structure issues between the ESP32 and PIC, we decided as a team to relay all our messages in Hex form rather than binary
+In our messaging, the controller will begin reading a message once it sees the values AZ((0x41)(0x5A) in Hex). The message will end when it receives the values YB ((0x59)(0x42) in Hex). The message will be at most 64 bytes long.
 
 ## Message structure
 
 Example Message Structure: [AZ][SENDERID][RECEIVERID][MESSAGETYPE][VALUES][YB]
 
 
-### Message ID's
+### Sender ID's
 
-Name        |  ID     
-------------|--------
-Brendan     | B
-Zack        | Z
-Carter      | C
-Broadcast   | X
+Name        |  ID    | Value 
+------------|--------|------------
+Brendan     | B      | 0x42
+Zack        | Z      | 0x5A
+Carter      | C      | 0x43
+
+### Receiver ID's
+
+Name        |  ID    | Value 
+------------|--------|------------
+Brendan     | B      | 0X42
+Zack        | Z      | 0x5A
+Carter      | C      | 0x43
+Broadcast   | X      | 0x45
 
 ### Messages sent
 
