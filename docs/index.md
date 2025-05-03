@@ -18,3 +18,4 @@ Components         |  [Link](https://brendan-keeter.github.io/Component_Selectio
 Bill of Materials  |  [Link](https://brendan-keeter.github.io/BOM/)
 Schematic and PCB  |  [Link](https://brendan-keeter.github.io/Schematic/)
 API                |  [Link](https://brendan-keeter.github.io/API/)
+Resources          |  [Link](https://brendan-keeter.github.io/Resources/)
