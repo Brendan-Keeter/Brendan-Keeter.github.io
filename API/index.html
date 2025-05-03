@@ -450,8 +450,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#message-ids" class="md-nav__link">
-    Message ID's
+  <a href="#sender-ids" class="md-nav__link">
+    Sender ID's
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#receiver-ids" class="md-nav__link">
+    Receiver ID's
   </a>
   
 </li>
@@ -625,8 +632,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#message-ids" class="md-nav__link">
-    Message ID's
+  <a href="#sender-ids" class="md-nav__link">
+    Sender ID's
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#receiver-ids" class="md-nav__link">
+    Receiver ID's
   </a>
   
 </li>
@@ -683,33 +697,66 @@
   <h1>API</h1>
 
 <h2 id="message-comunication">Message Comunication</h2>
-<p>In order to communicate with each other without having structure issues between the ESP32 and PIC, we decided as a team to relay all our messages in Hex form rather than binary</p>
+<p>In order to communicate with each other without having structure issues between the ESP32 and PIC, we decided as a team to relay all our messages in Hex form rather than binary
+In our messaging, the controller will begin reading a message once it sees the values AZ((0x41)(0x5A) in Hex). The message will end when it receives the values YB ((0x59)(0x42) in Hex). The message will be at most 64 bytes long.</p>
 <h2 id="message-structure">Message structure</h2>
 <p>Example Message Structure: [AZ][SENDERID][RECEIVERID][MESSAGETYPE][VALUES][YB]</p>
-<h3 id="message-ids">Message ID's</h3>
+<h3 id="sender-ids">Sender ID's</h3>
 <table>
 <thead>
 <tr>
 <th>Name</th>
 <th>ID</th>
+<th>Value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Brendan</td>
 <td>B</td>
+<td>0x42</td>
 </tr>
 <tr>
 <td>Zack</td>
 <td>Z</td>
+<td>0x5A</td>
 </tr>
 <tr>
 <td>Carter</td>
 <td>C</td>
+<td>0x43</td>
+</tr>
+</tbody>
+</table>
+<h3 id="receiver-ids">Receiver ID's</h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>ID</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Brendan</td>
+<td>B</td>
+<td>0X42</td>
+</tr>
+<tr>
+<td>Zack</td>
+<td>Z</td>
+<td>0x5A</td>
+</tr>
+<tr>
+<td>Carter</td>
+<td>C</td>
+<td>0x43</td>
 </tr>
 <tr>
 <td>Broadcast</td>
 <td>X</td>
+<td>0x45</td>
 </tr>
 </tbody>
 </table>
