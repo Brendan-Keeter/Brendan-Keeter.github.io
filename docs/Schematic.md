@@ -33,4 +33,6 @@ This schematic helps to satisfy user needs and requirement for our product as it
 
 ### Zip file for project workspace
 
-[Zip file download](<Final_PCB (4-30-2025 5-21-09 PM).zip>)
+[Project Zip File](<Final_PCB (4-30-2025 5-21-09 PM).zip>)
+
+[Project Gerber Files](Gerber.zip)
