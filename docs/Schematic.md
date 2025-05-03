@@ -8,9 +8,6 @@
 [Schematic PDF](Final_Schematic.pdf)
 
 
-[Zip File](<../../../../Desktop/School Programs/2025 spring/Wifi Communication.zip>)
-
-
 ### Power Budget
 
 ![Power Budget](1740775855263-a0fc072d-b641-4deb-8700-291f5a488f14_1.jpg)
@@ -34,4 +31,6 @@ This schematic helps to satisfy user needs and requirement for our product as it
 
 [PCB Bottom Layer PDF](Final_PCB_bottom.pdf)
 
-[Zip FIle Link](<../../../../../../Public/Documents/Altium/Final_PCB/Final_PCB (4-30-2025 5-21-09 PM).zip>)
+### Zip file for project workspace
+
+[Zip file download](<Final_PCB (4-30-2025 5-21-09 PM).zip>)
