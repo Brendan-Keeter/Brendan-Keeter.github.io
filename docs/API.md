@@ -2,7 +2,7 @@
 
 ### Message structure
 
-Messages sent between team will look like: [AZ][SENDERID][MESSAGETYPE][VALUES][YB]
+Messages sent between team will look like: [AZ][SENDERID][RECEIVERID][MESSAGETYPE][VALUES][YB]
 
 ### Message ID's
 
