@@ -1,8 +1,11 @@
 ## Message Comunication
 
-### Message structure
+In order to communicate with each other without having structure issues between the ESP32 and PIC, we decided as a team to relay all our messages in Hex form rather than binary
+
+## Message structure
 
 Messages sent between team will look like: [AZ][SENDERID][RECEIVERID][MESSAGETYPE][VALUES][YB]
+
 
 ### Message ID's
 
