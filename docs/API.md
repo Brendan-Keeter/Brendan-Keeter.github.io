@@ -1,5 +1,9 @@
 ## Message Comunication
 
+### Message structure
+
+Messages sent between team will look like: [AZ][SENDERID][MESSAGETYPE][VALUES][YB]
+
 ### Message ID's
 
 Name        |  ID     
