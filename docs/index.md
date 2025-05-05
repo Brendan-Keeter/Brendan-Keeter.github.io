@@ -1,5 +1,5 @@
 ---
-title: EGR314 Team 203 MQTT System
+title: Homepage
 ---
 
 ## Brendan Keeters Individual Webpage
