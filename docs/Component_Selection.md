@@ -143,9 +143,17 @@ UART            | TXD0 , 37
                   RXD0 , 36
 GPIO            | GPIO36, 29            
 
-### Microcontroller Choice Statement
-The EPS32 module that I had found is well suited for this project. The ESP32 that I have selected contains enough pins to be able to safely and effectively organize the board without crowding. Another thing about the board is the applications it is commonly used in. This ESP module is commonly used in sound recognition and audio devices which would suit well for the project we are working on that involves a microphone. The maximum current in the board is well within the parameters that we intend to keep our components under, so there is very little risk of damage to the EPS32 module and its recommended voltage is the exact same as the voltage we intended to use for our project. This microcontroller also has enough UART's for the project as multiple UART's are needed. This extra UART may be able to help with the debugging process as the code is being designed for this project.
+### Decision making process
 
+For this section, my decisionmaking had went into finding the best parts I could for each section. My subsystem does not need a ton of sensors on it which allowed me the option to spend more on certain parts to get what was needed for my product. The key requirements that were needed were serial communication, operating voltage of 3.3V, and a standard message structure that all 3 of our teams subsystems could use. 
+
+The first major component I needed to select was the microcontroller I was using. The microcontroller I selected was the ESP32-S3-WROOM-1 module. This module allowed me the abilitiy to connect to Wifi and Bluetooth which were the most important parts of my products subsystem. These capabilities allow me to connect to MQTT and fulfill the main job of my specific subsystem. The ESP32 also comes with multiple UART ports which is important for our teams communication. Our team communicated via daisy chain, so being able to connect to Tx and Rx were very important factors needed. For the project as well, we had needed a 3.3V voltasge regulator which works well for the ESP32 module as 3.3V is the recommended voltage for operation. 
+
+The next big component I needed to select was my voltage regulator. I ended up selecting the Texas Instruments IC REG BUCK 3.3V 1.7A 8SOIC. This voltage regulator was the one I went with as it fulfiled the main goal of bringing an external power source down to 3.3V for the ESP32 module. This voltage regulator was able to work for any input voltage between 4.5-20V, so it allowed me a wide variety of options for an external power source since I needed to find one that had enough amperage to satisfy not just my subsystem, but also the subsystems I was sending power to as well. 
+
+Finally I had selected the LED array that I chose as it was a very simple part to solder, was very bright, and had a long lasting life span. The LED helped with debugging my board as I tested it alongside the code and letting me know that the board was in active use when the LED was turned on. 
+
+These parts allowed me to fulfill the role of my subsystem to create an interactive experience for our user as they all allowed me to take communication sent by my other team members subsystems and display them via MQTT communication.
 
 
 ## Power Budget

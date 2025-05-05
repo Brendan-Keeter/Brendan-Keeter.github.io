@@ -29,7 +29,7 @@ Broadcast   | X      | 0x45
 
 Type          | Byte 1        | Byte 2        | Byte 3         
 --------------|---------------|---------------|---------------
-Variable Name | Status_Wifi   | Wave_freq     | Active_status
+Variable Name | Status_Wifi   | Wave_freq     | System On/off
 Variable Type | uint8_t       | uint8_t       | uint8_t           
 Min Value     | 0             | 0             | 0            
 Max Value     | 1             | 255           | 1            

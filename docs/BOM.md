@@ -1,7 +1,6 @@
 ## Bill of Materials
 
 ### BOM Parts List
-This includes only the amount I needed for my board
 
 ![BOM](1746171733100-a01818e3-dcad-46e4-9842-f23ffa719bb3_1.jpg)
 
