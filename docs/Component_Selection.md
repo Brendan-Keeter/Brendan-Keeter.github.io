@@ -158,11 +158,10 @@ These parts allowed me to fulfill the role of my subsystem to create an interact
 
 ## Power Budget
 
-![Power Budget](1740775855263-a0fc072d-b641-4deb-8700-291f5a488f14_1.jpg)
+![Power Budget](1746481440541-afbaad05-18cc-45d8-bab1-5f29f982ddc2_1.jpg)
 
-[Power Budget PDF](<power budget - Sheet1.pdf>)
+[Power Budget PDF](Final_Power_budget.pdf)
 
-[Power Budget Link](https://docs.google.com/spreadsheets/d/1vRoSXK202q8WlBCtyZgGOLbRly6qO8YX6i80h-ZgNSs/edit?usp=sharing)
 
 By creating this power budget, I was able to see just how much current and voltage I would need to get my system running properly with a 25% safety cushion if every system were to run at maximum current. The one thing I found when making my power budget was that I needed a wall mount power source that had a bit more current due to the maximum current that my voltage regulator was going to need. For the power budget, when totalling the maximum current for everything with the wall mounts power, the remaining current is very close to 0 mA, however I will not be needing to run every part of my subsystem at maximum current at any time.
 
