@@ -136,11 +136,11 @@ Peripheral      |  Pin Assignment (Name, Number)
 ----------------|----------------------
 Power           | 3V3 , 2
 Ground          | GND, 1 
-                  GND, 40
+                | GND, 40
 USB             | IO19 (D-)
-                  IO20 (D+)
+                | IO20 (D+)
 UART            | TXD0 , 37
-                  RXD0 , 36
+                | RXD0 , 36
 GPIO            | GPIO36, 29            
 
 ### Decision making process
