@@ -103,9 +103,9 @@ The Würth Elektronik LED GREEN CLEAR 0603 SMD is the choice I ended up going wi
 
 ## Microcontroller Information
 ### Microcontroller Used: ESP32-S3-WROOM-1
-![Picture of ESP module](ESPpic.jpg)
-![Pin layout for Expressif ESP](<Screenshot (117).png>)
-![Pin description for ESP](<Screenshot (118).png>)
+![ESP32 Module](image.png)
+![Pin Layout for ESP32-S3-WROOM-1](image-1.png)
+![Pin Description](image-2.png)
 
 ### Role of Subsystem
 For the team, this subsystems role is to allow communication inputs from Wifi and Bluetooth. By gathering these inputs, this subsystem will then send data to the other subsystems of the project to physically perform the action selected. Once the data has been processed by the other subsystems, it will once again be received by this subsystem and sent back out via Wifi to the user.
