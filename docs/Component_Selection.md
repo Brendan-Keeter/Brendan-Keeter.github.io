@@ -148,7 +148,7 @@ The EPS32 module that I had found is well suited for this project. The ESP32 tha
 
 
 
-### Power Budget
+## Power Budget
 
 ![Power Budget](1740775855263-a0fc072d-b641-4deb-8700-291f5a488f14_1.jpg)
 
