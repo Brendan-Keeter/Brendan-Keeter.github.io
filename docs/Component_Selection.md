@@ -116,29 +116,46 @@ The main focus of this subsystems responsibilities are sensing, display, and com
 ESP Info                      |   Data
 ------------------------------|------------------
 Model                         | ESP32-S3-WROOM-1
-Product page URL              | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)     
+Product page URL              | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R8/16163965?gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlirVJBj8dzWKfljP44YaLEQA&gclid=Cj0KCQjww-HABhCGARIsALLO6XzRQbiuax3_Zif1sDelSuuyqTRb7RIDk_LOgmr7FMjm3kEPv6Lh-BoaArf1EALw_wcB&gclsrc=aw.ds)
 ESP32-S3-WROOM-1-N4 datasheet | [Link](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 ESP32 S3 datasheet            | [Link](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)
 ESP32 S3 Technical Manual     | [Link](https://cdn-learn.adafruit.com/assets/assets/000/110/710/original/esp32-s3_technical_reference_manual_en.pdf?1649790877)
-Vendor Link                   | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125)
+Vendor Link                   | [Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R8/16163965?gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlirVJBj8dzWKfljP44YaLEQA&gclid=Cj0KCQjww-HABhCGARIsALLO6XzRQbiuax3_Zif1sDelSuuyqTRb7RIDk_LOgmr7FMjm3kEPv6Lh-BoaArf1EALw_wcB&gclsrc=aw.ds)
 Code Examples                 | [Link](https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md)
 External Resources            | [Link 1: Getting Started](https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/get-started/index.html#what-you-need)    [Link 2: Complete Guide](https://www.nabto.com/guide-to-iot-esp-32/)
-Unit Cost                     | $2.50
+Unit Cost                     | $5.71
 Supply Voltage Range          | Operating voltage is between 3.0V-3.6V. 3.3V Recommended
-Absolute Max Current          | 1200 mA
-Maximum GPIO Current          | 1200 mA
+Absolute Max Current          | 500 mA
+Maximum GPIO Current          | 40 mA
 Supports External Interrupts? | Yes, it supports external interupts
 
 
-Module         | # Available      |  Needed    | Associated Pins
----------------|------------------|------------|-----------------------
-UART           |  3               | 2          | Any GPIO Pins
-External SPI   |  4               | 2          | Any GPIO Pins
-I2C            |  2               | 1          | Any GPIO Pins
-GPIO           |  34              | 12         | Any GPIO Pins
-ADC            |  2               | 0          | 18 Available Pins
-LED PWM        |  16              | 2          | Any GPIO Pins
-Motor PWM      |  3               | 0          | Any GPIO Pins
+### Pin Allocation
+
+Peripheral      |  Pin Assignment (Name, Number)
+----------------|----------------------
+Power           | 3V3 , 2
+Ground          | GND, 1 
+                | GND, 40
+USB             | IO19 (D-)
+                | IO20 (D+)
+UART            | TXD0 , 37
+                | RXD0 , 36
+GPIO            | GPIO36, 29            
 
 ### Microcontroller Choice Statement
 The EPS32 module that I had found is well suited for this project. The ESP32 that I have selected contains enough pins to be able to safely and effectively organize the board without crowding. Another thing about the board is the applications it is commonly used in. This ESP module is commonly used in sound recognition and audio devices which would suit well for the project we are working on that involves a microphone. The maximum current in the board is well within the parameters that we intend to keep our components under, so there is very little risk of damage to the EPS32 module and its recommended voltage is the exact same as the voltage we intended to use for our project. This microcontroller also has enough UART's for the project as multiple UART's are needed. This extra UART may be able to help with the debugging process as the code is being designed for this project.
+
+
+
+### Power Budget
+
+![Power Budget](1740775855263-a0fc072d-b641-4deb-8700-291f5a488f14_1.jpg)
+
+[Power Budget PDF](<power budget - Sheet1.pdf>)
+
+[Power Budget Link](https://docs.google.com/spreadsheets/d/1vRoSXK202q8WlBCtyZgGOLbRly6qO8YX6i80h-ZgNSs/edit?usp=sharing)
+
+By creating this power budget, I was able to see just how much current and voltage I would need to get my system running properly with a 25% safety cushion if every system were to run at maximum current. The one thing I found when making my power budget was that I needed a wall mount power source that had a bit more current due to the maximum current that my voltage regulator was going to need. For the power budget, when totalling the maximum current for everything with the wall mounts power, the remaining current is very close to 0 mA, however I will not be needing to run every part of my subsystem at maximum current at any time.
+
+This schematic helps to satisfy user needs and requirement for our product as it allows for successful communication through Wifi. The schematic itself is very simple as most of the resources will be in coding, however it was important to our team that there be UART communication and LED's to communicate between each of our subsystems and also be able to shine an LED to inform the user that they are connected to the Wifi module. It helps us to meet our user needs as it allows for the user to get extra resources to learn from as an input is being recognized by our project.
