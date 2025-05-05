@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-## Brendan Keeters Individual Webpage
+## EGR314 Team 203 MQTT Communication
 
 Welcome to our project report for EGR314. This webpage is an individual subsection for our much bigger project. On this webpage you will be able to view the progress and individual components to the subsection: 2 way Wifi Communication.
 
