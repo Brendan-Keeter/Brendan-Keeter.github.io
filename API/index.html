@@ -464,22 +464,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#messages-sent" class="md-nav__link">
-    Messages sent
+  <a href="#message-type" class="md-nav__link">
+    Message Type
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-recieved" class="md-nav__link">
-    Message Recieved
+  <a href="#values" class="md-nav__link">
+    Values
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#team-messages" class="md-nav__link">
-    Team Messages
+  <a href="#error-types" class="md-nav__link">
+    Error Types
   </a>
   
 </li>
@@ -646,22 +646,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#messages-sent" class="md-nav__link">
-    Messages sent
+  <a href="#message-type" class="md-nav__link">
+    Message Type
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#message-recieved" class="md-nav__link">
-    Message Recieved
+  <a href="#values" class="md-nav__link">
+    Values
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#team-messages" class="md-nav__link">
-    Team Messages
+  <a href="#error-types" class="md-nav__link">
+    Error Types
   </a>
   
 </li>
@@ -760,132 +760,107 @@ In our messaging, the controller will begin reading a message once it sees the v
 </tr>
 </tbody>
 </table>
-<h3 id="messages-sent">Messages sent</h3>
+<h3 id="message-type">Message Type</h3>
 <table>
 <thead>
 <tr>
+<th>Message Type</th>
+<th>Values</th>
 <th>Type</th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-<th>Byte 3</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Variable Name</td>
-<td>Status_Wifi</td>
-<td>Wave_freq</td>
-<td>System On/off</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Min Value</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max Value</td>
+<td>Motor Freq</td>
 <td>1</td>
-<td>255</td>
-<td>1</td>
+<td>0x31</td>
 </tr>
 <tr>
-<td>Example</td>
-<td>1</td>
-<td>179</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-<h3 id="message-recieved">Message Recieved</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-<th>Byte 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Variable Name</td>
-<td>Tuning</td>
-<td>Wave_Freq</td>
-<td>Wave_Length</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Min Value</td>
-<td>-128</td>
-<td>0</td>
-<td>0 m</td>
-</tr>
-<tr>
-<td>Max Value</td>
-<td>127</td>
-<td>255</td>
-<td>255 m</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>-3</td>
-<td>234</td>
-<td>47 m</td>
-</tr>
-</tbody>
-</table>
-<h3 id="team-messages">Team Messages</h3>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-<th>Byte 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Variable Name</td>
-<td>motor_speed</td>
-<td>pitch_info</td>
-<td>Button_input</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-</tr>
-<tr>
-<td>Min Value</td>
-<td>0 rpm</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max Value</td>
-<td>255 rpm</td>
-<td>1</td>
+<td>Motor ON/OFF</td>
 <td>3</td>
+<td>0x33</td>
 </tr>
 <tr>
-<td>Example</td>
-<td>4 rpm</td>
-<td>0</td>
-<td>1</td>
+<td>System ON/OFF</td>
+<td>4</td>
+<td>0x34</td>
+</tr>
+</tbody>
+</table>
+<h3 id="values">Values</h3>
+<table>
+<thead>
+<tr>
+<th>Message Type</th>
+<th>Values</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Motor Freq</td>
+<td>0-255</td>
+<td>0x30 - 0xFF</td>
+</tr>
+<tr>
+<td>Motor ON/OFF</td>
+<td>0-1</td>
+<td>0x30 - 0x31</td>
+</tr>
+<tr>
+<td>System ON/OFF</td>
+<td>0-1</td>
+<td>0x30 - 0x31</td>
+</tr>
+<tr>
+<td>Sensor Error</td>
+<td>0-6</td>
+<td>0x30 - 0x35</td>
+</tr>
+<tr>
+<td>Motor Error</td>
+<td>0-6</td>
+<td>0x30 - 0x35</td>
+</tr>
+<tr>
+<td>MQTT Error</td>
+<td>0-6</td>
+<td>0x30 - 0x35</td>
+</tr>
+</tbody>
+</table>
+<h3 id="error-types">Error Types</h3>
+<table>
+<thead>
+<tr>
+<th>Error type</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wrong start to message</td>
+<td>0x30</td>
+</tr>
+<tr>
+<td>Wrong Sender</td>
+<td>0x31</td>
+</tr>
+<tr>
+<td>Wrong Receiver</td>
+<td>0x32</td>
+</tr>
+<tr>
+<td>Wrong Message Type</td>
+<td>0x33</td>
+</tr>
+<tr>
+<td>Wrong Message Value</td>
+<td>0x34</td>
+</tr>
+<tr>
+<td>Wrong Message ending</td>
+<td>0x35</td>
 </tr>
 </tbody>
 </table>
