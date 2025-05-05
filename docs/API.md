@@ -25,35 +25,34 @@ Zack        | Z      | 0x5A
 Carter      | C      | 0x43
 Broadcast   | X      | 0x45
 
-### Messages sent
+### Message Type
 
-Type          | Byte 1        | Byte 2        | Byte 3         
---------------|---------------|---------------|---------------
-Variable Name | Status_Wifi   | Wave_freq     | System On/off
-Variable Type | uint8_t       | uint8_t       | uint8_t           
-Min Value     | 0             | 0             | 0            
-Max Value     | 1             | 255           | 1            
-Example       | 1             | 179           | 1            
+Message Type    |  Values  | Type
+----------------|----------|-----------
+Motor Freq      | 1        | 0x31
+Motor ON/OFF    | 3        | 0x33
+System ON/OFF   | 4        | 0x34
 
 
+### Values
 
-### Message Recieved
+Message Type    |  Values  | Type
+----------------|----------|-----------
+Motor Freq      | 0-255    | 0x30 - 0xFF
+Motor ON/OFF    | 0-1      | 0x30 - 0x31
+System ON/OFF   | 0-1      | 0x30 - 0x31
+Sensor Error    | 0-6      | 0x30 - 0x35
+Motor Error     | 0-6      | 0x30 - 0x35
+MQTT Error      | 0-6      | 0x30 - 0x35
 
-Type          | Byte 1        | Byte 2        | Byte 3         
---------------|---------------|---------------|---------------
-Variable Name | Tuning        | Wave_Freq     | Wave_Length
-Variable Type | uint8_t       | uint8_t       | uint8_t           
-Min Value     | -128          | 0             | 0 m            
-Max Value     | 127           | 255           | 255 m            
-Example       | -3            | 234           | 47 m            
+### Error Types
 
+Error type              | Value
+------------------------|-----------
+Wrong start to message  | 0x30
+Wrong Sender            | 0x31
+Wrong Receiver          | 0x32
+Wrong Message Type      | 0x33
+Wrong Message Value     | 0x34
+Wrong Message ending    | 0x35 
 
-### Team Messages 
-
-Type          | Byte 1        | Byte 2        | Byte 3         
---------------|---------------|---------------|---------------
-Variable Name | motor_speed   | pitch_info    | Button_input
-Variable Type | uint8_t       | uint8_t       | uint8_t           
-Min Value     | 0 rpm         | 0             | 0            
-Max Value     | 255 rpm       | 1             | 3            
-Example       | 4 rpm         | 0             | 1            
