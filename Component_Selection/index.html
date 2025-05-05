@@ -630,8 +630,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#pin-allocation" class="md-nav__link">
+    Pin Allocation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#microcontroller-choice-statement" class="md-nav__link">
     Microcontroller Choice Statement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    Power Budget
   </a>
   
 </li>
@@ -850,8 +864,22 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#pin-allocation" class="md-nav__link">
+    Pin Allocation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#microcontroller-choice-statement" class="md-nav__link">
     Microcontroller Choice Statement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-budget" class="md-nav__link">
+    Power Budget
   </a>
   
 </li>
@@ -1101,7 +1129,7 @@
 </tr>
 <tr>
 <td>Product page URL</td>
-<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125">Link</a></td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R8/16163965?gad_source=1&amp;gad_campaignid=20228387720&amp;gbraid=0AAAAADrbLlirVJBj8dzWKfljP44YaLEQA&amp;gclid=Cj0KCQjww-HABhCGARIsALLO6XzRQbiuax3_Zif1sDelSuuyqTRb7RIDk_LOgmr7FMjm3kEPv6Lh-BoaArf1EALw_wcB&amp;gclsrc=aw.ds">Link</a></td>
 </tr>
 <tr>
 <td>ESP32-S3-WROOM-1-N4 datasheet</td>
@@ -1117,7 +1145,7 @@
 </tr>
 <tr>
 <td>Vendor Link</td>
-<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32E-N4/11613125">Link</a></td>
+<td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4R8/16163965?gad_source=1&amp;gad_campaignid=20228387720&amp;gbraid=0AAAAADrbLlirVJBj8dzWKfljP44YaLEQA&amp;gclid=Cj0KCQjww-HABhCGARIsALLO6XzRQbiuax3_Zif1sDelSuuyqTRb7RIDk_LOgmr7FMjm3kEPv6Lh-BoaArf1EALw_wcB&amp;gclsrc=aw.ds">Link</a></td>
 </tr>
 <tr>
 <td>Code Examples</td>
@@ -1129,7 +1157,7 @@
 </tr>
 <tr>
 <td>Unit Cost</td>
-<td>$2.50</td>
+<td>$5.71</td>
 </tr>
 <tr>
 <td>Supply Voltage Range</td>
@@ -1137,11 +1165,11 @@
 </tr>
 <tr>
 <td>Absolute Max Current</td>
-<td>1200 mA</td>
+<td>500 mA</td>
 </tr>
 <tr>
 <td>Maximum GPIO Current</td>
-<td>1200 mA</td>
+<td>40 mA</td>
 </tr>
 <tr>
 <td>Supports External Interrupts?</td>
@@ -1149,62 +1177,57 @@
 </tr>
 </tbody>
 </table>
+<h3 id="pin-allocation">Pin Allocation</h3>
 <table>
 <thead>
 <tr>
-<th>Module</th>
-<th># Available</th>
-<th>Needed</th>
-<th>Associated Pins</th>
+<th>Peripheral</th>
+<th>Pin Assignment (Name, Number)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>Power</td>
+<td>3V3 , 2</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>GND, 1</td>
+</tr>
+<tr>
+<td></td>
+<td>GND, 40</td>
+</tr>
+<tr>
+<td>USB</td>
+<td>IO19 (D-)</td>
+</tr>
+<tr>
+<td></td>
+<td>IO20 (D+)</td>
+</tr>
+<tr>
 <td>UART</td>
-<td>3</td>
-<td>2</td>
-<td>Any GPIO Pins</td>
+<td>TXD0 , 37</td>
 </tr>
 <tr>
-<td>External SPI</td>
-<td>4</td>
-<td>2</td>
-<td>Any GPIO Pins</td>
-</tr>
-<tr>
-<td>I2C</td>
-<td>2</td>
-<td>1</td>
-<td>Any GPIO Pins</td>
+<td></td>
+<td>RXD0 , 36</td>
 </tr>
 <tr>
 <td>GPIO</td>
-<td>34</td>
-<td>12</td>
-<td>Any GPIO Pins</td>
-</tr>
-<tr>
-<td>ADC</td>
-<td>2</td>
-<td>0</td>
-<td>18 Available Pins</td>
-</tr>
-<tr>
-<td>LED PWM</td>
-<td>16</td>
-<td>2</td>
-<td>Any GPIO Pins</td>
-</tr>
-<tr>
-<td>Motor PWM</td>
-<td>3</td>
-<td>0</td>
-<td>Any GPIO Pins</td>
+<td>GPIO36, 29</td>
 </tr>
 </tbody>
 </table>
 <h3 id="microcontroller-choice-statement">Microcontroller Choice Statement</h3>
 <p>The EPS32 module that I had found is well suited for this project. The ESP32 that I have selected contains enough pins to be able to safely and effectively organize the board without crowding. Another thing about the board is the applications it is commonly used in. This ESP module is commonly used in sound recognition and audio devices which would suit well for the project we are working on that involves a microphone. The maximum current in the board is well within the parameters that we intend to keep our components under, so there is very little risk of damage to the EPS32 module and its recommended voltage is the exact same as the voltage we intended to use for our project. This microcontroller also has enough UART's for the project as multiple UART's are needed. This extra UART may be able to help with the debugging process as the code is being designed for this project.</p>
+<h3 id="power-budget">Power Budget</h3>
+<p><a class="glightbox" href="../1740775855263-a0fc072d-b641-4deb-8700-291f5a488f14_1.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Power Budget" src="../1740775855263-a0fc072d-b641-4deb-8700-291f5a488f14_1.jpg" /></a></p>
+<p><a href="../power%20budget%20-%20Sheet1.pdf">Power Budget PDF</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/1vRoSXK202q8WlBCtyZgGOLbRly6qO8YX6i80h-ZgNSs/edit?usp=sharing">Power Budget Link</a></p>
+<p>By creating this power budget, I was able to see just how much current and voltage I would need to get my system running properly with a 25% safety cushion if every system were to run at maximum current. The one thing I found when making my power budget was that I needed a wall mount power source that had a bit more current due to the maximum current that my voltage regulator was going to need. For the power budget, when totalling the maximum current for everything with the wall mounts power, the remaining current is very close to 0 mA, however I will not be needing to run every part of my subsystem at maximum current at any time.</p>
+<p>This schematic helps to satisfy user needs and requirement for our product as it allows for successful communication through Wifi. The schematic itself is very simple as most of the resources will be in coding, however it was important to our team that there be UART communication and LED's to communicate between each of our subsystems and also be able to shine an LED to inform the user that they are connected to the Wifi module. It helps us to meet our user needs as it allows for the user to get extra resources to learn from as an input is being recognized by our project.</p>
 
 
 
